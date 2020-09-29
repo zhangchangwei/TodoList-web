@@ -1,0 +1,4 @@
+<!--pages/profile/profile.wxml-->
+<view>
+  <button>登录</button>
+</view>

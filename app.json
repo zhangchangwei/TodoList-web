@@ -1,18 +1,28 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/profile/profile"
   ],
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
       "text": "清单",
-      "iconPath": "pages/todolist/select.png",
+      "iconPath": "image/select.png",
       "selectedColor": "green",
-      "selectedIconPath": "pages/todolist/selected.png"
+      "selectedIconPath": "image/selected.png"
     },{
       "pagePath": "pages/logs/logs",
-      "text": "时间轴"
+      "text": "时间轴",
+      "iconPath": "image/time.png",
+      "selectedColor": "green",
+      "selectedIconPath": "image/timed.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "image/me.png",
+      "selectedColor": "green",
+      "selectedIconPath": "image/med.png"
     }]
   },
   "window":{

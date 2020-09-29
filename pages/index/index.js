@@ -8,7 +8,7 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    daiban_status:true
+    daiban_status:true,
   },
   //事件处理函数
   bindViewTap: function() {
@@ -45,7 +45,6 @@ Page({
     }
   },
   getUserInfo: function(e) {
-    console.log('eeeeee:',e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
@@ -54,5 +53,6 @@ Page({
   },
   but:function () {
     this.daiban_status = !this.daiban_status
+    this.say="点我干啥，啥也没有"
   }
 })
