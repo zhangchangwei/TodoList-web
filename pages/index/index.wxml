@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <button size="mini" class="daiban_init"  bindtap="but">待办</button>
+    <button size="mini" style="top:-90px;left:-100px;font-size:15px;color:#444">完成</button>
+  </view>
+  <h style="color: rgb(185, 172, 172)">请添加你的待办清单吧!</h>
+  <!-- <view class="divLine"></view> -->
+  
+</view>

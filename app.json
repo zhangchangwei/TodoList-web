@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "清单",
+      "iconPath": "pages/todolist/select.png",
+      "selectedColor": "green",
+      "selectedIconPath": "pages/todolist/selected.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "时间轴"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TodoList",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
