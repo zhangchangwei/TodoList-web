@@ -1,10 +1,15 @@
 <!--index.wxml-->
 <view class="container">
-  <view>
-    <button size="mini" style="top:-90px;left:-100px;font-size:15px;color:#444" bindtap="but" >待办</button>
-    <button size="mini" style="top:-90px;left:-100px;font-size:15px;color:#444">完成</button>
-  </view>
-  <h style="color: rgb(185, 172, 172)">请添加你的待办清单吧!</h>
+  <h style="color: rgb(185, 172, 172)" wx:if="">请添加你的待办清单吧!</h>
   <!-- <view class="divLine"></view> -->
-  
+  <view class="weui-cells weui-cells_after-title">
+    <checkbox-group bindchange="checkboxChange">
+      <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+        <view class="weui-cell__hd">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+        </view>
+        <view class="weui-cell__bd">{{item.name}}</view>
+      </label>
+    </checkbox-group>
+  </view>
 </view>

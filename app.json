@@ -7,13 +7,13 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "清单",
+      "text": "待办",
       "iconPath": "image/select.png",
       "selectedColor": "green",
       "selectedIconPath": "image/selected.png"
     },{
       "pagePath": "pages/logs/logs",
-      "text": "时间轴",
+      "text": "完成",
       "iconPath": "image/time.png",
       "selectedColor": "green",
       "selectedIconPath": "image/timed.png"
